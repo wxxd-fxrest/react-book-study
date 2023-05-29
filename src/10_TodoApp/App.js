@@ -1,8 +1,8 @@
 import { useCallback, useReducer, useRef, useState } from 'react';
-import TodoInsert from './10_TodoApp/TodoInsert';
-import TodoList from './10_TodoApp/TodoList';
-import TodoTemplate from './10_TodoApp/TodoTemplate';
-import './App.css';
+import TodoInsert from './TodoInsert';
+import TodoList from './TodoList';
+import TodoTemplate from './TodoTemplate';
+import '../10_TodoApp/App.css';
 
 function createBulkTodos() {
   const array = [] ; 
